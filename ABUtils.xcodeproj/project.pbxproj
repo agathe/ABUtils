@@ -1,0 +1,479 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		31C3778E197671A200843C13 /* UIFont+ABUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 31C37780197671A200843C13 /* UIFont+ABUtils.m */; };
+		31C3778F197671A200843C13 /* UIAlertView+ABUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 31C37782197671A200843C13 /* UIAlertView+ABUtils.m */; };
+		31C37791197671A200843C13 /* ABCollectionViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 31C37787197671A200843C13 /* ABCollectionViewModel.m */; };
+		31C37792197671A200843C13 /* ABCellInfoDataObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 31C37789197671A200843C13 /* ABCellInfoDataObject.m */; };
+		31C37793197671A200843C13 /* UIColor+ABUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 31C3778B197671A200843C13 /* UIColor+ABUtils.m */; };
+		31C37794197671A200843C13 /* UIView+ABUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 31C3778C197671A200843C13 /* UIView+ABUtils.m */; };
+		31C377961976726000843C13 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31C377951976726000843C13 /* UIKit.framework */; };
+		31C377981976726800843C13 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31C377971976726800843C13 /* Foundation.framework */; };
+		31CDB18C19767102007E58F2 /* ABUtils.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 31CDB18B19767102007E58F2 /* ABUtils.h */; };
+		31CDB19419767102007E58F2 /* libABUtils.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 31CDB18819767102007E58F2 /* libABUtils.a */; };
+		3A23127B2E6B43CCA2A87118 /* libPods-ABUtils.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 65B0433D38C64ED8BEF035B1 /* libPods-ABUtils.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		31CDB19519767102007E58F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 31CDB18019767102007E58F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 31CDB18719767102007E58F2;
+			remoteInfo = ABUtils;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		31CDB18619767102007E58F2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				31CDB18C19767102007E58F2 /* ABUtils.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		31C37780197671A200843C13 /* UIFont+ABUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+ABUtils.m"; sourceTree = "<group>"; };
+		31C37781197671A200843C13 /* UIAlertView+ABUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+ABUtils.h"; sourceTree = "<group>"; };
+		31C37782197671A200843C13 /* UIAlertView+ABUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+ABUtils.m"; sourceTree = "<group>"; };
+		31C37785197671A200843C13 /* UIFont+ABUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+ABUtils.h"; sourceTree = "<group>"; };
+		31C37786197671A200843C13 /* ABCollectionViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABCollectionViewModel.h; sourceTree = "<group>"; };
+		31C37787197671A200843C13 /* ABCollectionViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABCollectionViewModel.m; sourceTree = "<group>"; };
+		31C37788197671A200843C13 /* ABCellInfoDataObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABCellInfoDataObject.h; sourceTree = "<group>"; };
+		31C37789197671A200843C13 /* ABCellInfoDataObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABCellInfoDataObject.m; sourceTree = "<group>"; };
+		31C3778A197671A200843C13 /* UIColor+ABUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+ABUtils.h"; sourceTree = "<group>"; };
+		31C3778B197671A200843C13 /* UIColor+ABUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ABUtils.m"; sourceTree = "<group>"; };
+		31C3778C197671A200843C13 /* UIView+ABUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ABUtils.m"; sourceTree = "<group>"; };
+		31C3778D197671A200843C13 /* UIView+ABUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ABUtils.h"; sourceTree = "<group>"; };
+		31C377951976726000843C13 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		31C377971976726800843C13 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		31C3779C1976742100843C13 /* ABUtils-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ABUtils-Prefix.pch"; sourceTree = "<group>"; };
+		31C3779E1976761100843C13 /* ABUtils.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ABUtils.podspec; sourceTree = "<group>"; };
+		31CDB18819767102007E58F2 /* libABUtils.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libABUtils.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		31CDB18B19767102007E58F2 /* ABUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ABUtils.h; sourceTree = "<group>"; };
+		31CDB19319767102007E58F2 /* ABUtilsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ABUtilsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		31CDB19919767102007E58F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65B0433D38C64ED8BEF035B1 /* libPods-ABUtils.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ABUtils.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB21A883247D456AA9C22970 /* Pods-ABUtils.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ABUtils.xcconfig"; path = "Pods/Pods-ABUtils.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		31CDB18519767102007E58F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31C377981976726800843C13 /* Foundation.framework in Frameworks */,
+				31C377961976726000843C13 /* UIKit.framework in Frameworks */,
+				3A23127B2E6B43CCA2A87118 /* libPods-ABUtils.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31CDB19019767102007E58F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31CDB19419767102007E58F2 /* libABUtils.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		31C3779B197673E900843C13 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				31C3779C1976742100843C13 /* ABUtils-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		31CDB17F19767102007E58F2 = {
+			isa = PBXGroup;
+			children = (
+				31C3779E1976761100843C13 /* ABUtils.podspec */,
+				31CDB18A19767102007E58F2 /* ABUtils */,
+				31CDB19719767102007E58F2 /* ABUtilsTests */,
+				31CDB18919767102007E58F2 /* Products */,
+				AB21A883247D456AA9C22970 /* Pods-ABUtils.xcconfig */,
+				6CD24728D7BF4445B1FB6078 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		31CDB18919767102007E58F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				31CDB18819767102007E58F2 /* libABUtils.a */,
+				31CDB19319767102007E58F2 /* ABUtilsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		31CDB18A19767102007E58F2 /* ABUtils */ = {
+			isa = PBXGroup;
+			children = (
+				31C3779B197673E900843C13 /* Supporting Files */,
+				31C37780197671A200843C13 /* UIFont+ABUtils.m */,
+				31C37781197671A200843C13 /* UIAlertView+ABUtils.h */,
+				31C37782197671A200843C13 /* UIAlertView+ABUtils.m */,
+				31C37785197671A200843C13 /* UIFont+ABUtils.h */,
+				31C37786197671A200843C13 /* ABCollectionViewModel.h */,
+				31C37787197671A200843C13 /* ABCollectionViewModel.m */,
+				31C37788197671A200843C13 /* ABCellInfoDataObject.h */,
+				31C37789197671A200843C13 /* ABCellInfoDataObject.m */,
+				31C3778A197671A200843C13 /* UIColor+ABUtils.h */,
+				31C3778B197671A200843C13 /* UIColor+ABUtils.m */,
+				31C3778C197671A200843C13 /* UIView+ABUtils.m */,
+				31C3778D197671A200843C13 /* UIView+ABUtils.h */,
+				31CDB18B19767102007E58F2 /* ABUtils.h */,
+			);
+			path = ABUtils;
+			sourceTree = "<group>";
+		};
+		31CDB19719767102007E58F2 /* ABUtilsTests */ = {
+			isa = PBXGroup;
+			children = (
+				31CDB19819767102007E58F2 /* Supporting Files */,
+			);
+			path = ABUtilsTests;
+			sourceTree = "<group>";
+		};
+		31CDB19819767102007E58F2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				31CDB19919767102007E58F2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6CD24728D7BF4445B1FB6078 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				31C377971976726800843C13 /* Foundation.framework */,
+				31C377951976726000843C13 /* UIKit.framework */,
+				65B0433D38C64ED8BEF035B1 /* libPods-ABUtils.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		31CDB18719767102007E58F2 /* ABUtils */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31CDB19C19767102007E58F2 /* Build configuration list for PBXNativeTarget "ABUtils" */;
+			buildPhases = (
+				1A8F34F2B7D9425F99AA228A /* Check Pods Manifest.lock */,
+				31CDB18419767102007E58F2 /* Sources */,
+				31CDB18519767102007E58F2 /* Frameworks */,
+				31CDB18619767102007E58F2 /* CopyFiles */,
+				6BE6F3093AD343CE93B82070 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ABUtils;
+			productName = ABUtils;
+			productReference = 31CDB18819767102007E58F2 /* libABUtils.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		31CDB19219767102007E58F2 /* ABUtilsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31CDB19F19767102007E58F2 /* Build configuration list for PBXNativeTarget "ABUtilsTests" */;
+			buildPhases = (
+				31CDB18F19767102007E58F2 /* Sources */,
+				31CDB19019767102007E58F2 /* Frameworks */,
+				31CDB19119767102007E58F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				31CDB19619767102007E58F2 /* PBXTargetDependency */,
+			);
+			name = ABUtilsTests;
+			productName = ABUtilsTests;
+			productReference = 31CDB19319767102007E58F2 /* ABUtilsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		31CDB18019767102007E58F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = AB;
+				TargetAttributes = {
+					31CDB18719767102007E58F2 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					31CDB19219767102007E58F2 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 31CDB18719767102007E58F2;
+					};
+				};
+			};
+			buildConfigurationList = 31CDB18319767102007E58F2 /* Build configuration list for PBXProject "ABUtils" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 31CDB17F19767102007E58F2;
+			productRefGroup = 31CDB18919767102007E58F2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				31CDB18719767102007E58F2 /* ABUtils */,
+				31CDB19219767102007E58F2 /* ABUtilsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		31CDB19119767102007E58F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1A8F34F2B7D9425F99AA228A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6BE6F3093AD343CE93B82070 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-ABUtils-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		31CDB18419767102007E58F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31C37792197671A200843C13 /* ABCellInfoDataObject.m in Sources */,
+				31C3778E197671A200843C13 /* UIFont+ABUtils.m in Sources */,
+				31C37794197671A200843C13 /* UIView+ABUtils.m in Sources */,
+				31C37791197671A200843C13 /* ABCollectionViewModel.m in Sources */,
+				31C37793197671A200843C13 /* UIColor+ABUtils.m in Sources */,
+				31C3778F197671A200843C13 /* UIAlertView+ABUtils.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31CDB18F19767102007E58F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		31CDB19619767102007E58F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 31CDB18719767102007E58F2 /* ABUtils */;
+			targetProxy = 31CDB19519767102007E58F2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		31CDB19A19767102007E58F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREFIX_HEADER = "ABUtils/ABUtils-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		31CDB19B19767102007E58F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREFIX_HEADER = "ABUtils/ABUtils-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		31CDB19D19767102007E58F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB21A883247D456AA9C22970 /* Pods-ABUtils.xcconfig */;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		31CDB19E19767102007E58F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB21A883247D456AA9C22970 /* Pods-ABUtils.xcconfig */;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		31CDB1A019767102007E58F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ABUtilsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		31CDB1A119767102007E58F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ABUtilsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		31CDB18319767102007E58F2 /* Build configuration list for PBXProject "ABUtils" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31CDB19A19767102007E58F2 /* Debug */,
+				31CDB19B19767102007E58F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31CDB19C19767102007E58F2 /* Build configuration list for PBXNativeTarget "ABUtils" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31CDB19D19767102007E58F2 /* Debug */,
+				31CDB19E19767102007E58F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31CDB19F19767102007E58F2 /* Build configuration list for PBXNativeTarget "ABUtilsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31CDB1A019767102007E58F2 /* Debug */,
+				31CDB1A119767102007E58F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 31CDB18019767102007E58F2 /* Project object */;
+}
