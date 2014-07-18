@@ -24,17 +24,6 @@
 
 }
 
-- (NSArray *)results {
-    @synchronized (self) {
-        return _results;
-    }
-}
-
-- (void)setResults:(NSArray *)results {
-    @synchronized (self) {
-        _results = results;
-    }
-}
 
 #pragma mark - Collection view
 

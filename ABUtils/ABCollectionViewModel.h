@@ -17,7 +17,7 @@
 /**
 * By default expects a 2 dimensions object such that results[section][row] is a ABCellInfoDataObject.
 */
-@property (nonatomic, strong, readonly) NSArray *results;
+@property (atomic, strong) NSArray *results;
 
 - (NSInteger)numberOfSections;
 
@@ -47,7 +47,7 @@
 
 }
 
-@property (nonatomic, strong, readwrite) NSArray *results;
+//@property (nonatomic, strong, readwrite) NSArray *results;
 
 - (ABCellInfoDataObject *)cellInfoDataObjectAtIndexPath:(NSIndexPath *)indexPath;
 
