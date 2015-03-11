@@ -3,6 +3,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <ReactiveCocoa/ReactiveCocoa.h>
 
 /**
 * Convenient class to hold a cell object information
@@ -13,6 +14,8 @@
 @property (nonatomic, strong) NSString *cellIdentifier;
 @property (nonatomic, assign) CGFloat cellHeight;
 @property (nonatomic, assign) CGSize cellSize;
+
+@property (nonatomic, strong) RACSubject * dataChangeSubject;
 
 
 + (instancetype)newWithSize:(CGSize)size;

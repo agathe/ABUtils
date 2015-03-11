@@ -6,6 +6,7 @@
 #import <ReactiveViewModel/RVMViewModel.h>
 
 @class ABCellInfoDataObject;
+@class RACSubject;
 
 /**
 * Base class for ViewModels that provide data for UICollectionView objects.
@@ -30,6 +31,8 @@
 - (CGSize)sizeForItemAtIndexPath:(NSIndexPath *)indexPath;
 
 - (NSString *)cellIdentifierAtIndexPath:(NSIndexPath *)indexPath;
+
+- (RACSubject *)dataSubjectForObjectAtIndexPath:(NSIndexPath *)indexPath;
 
 - (NSString *)cellIdentifierForSupplementaryElementOfKind:(NSString *)kind atIndexPath:(NSIndexPath *)indexPath;
 

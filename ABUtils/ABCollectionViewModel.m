@@ -4,6 +4,8 @@
 
 #import "ABCollectionViewModel.h"
 #import "ABCellInfoDataObject.h"
+#import "RACSubject.h"
+#import <ReactiveCocoa/ReactiveCocoa.h>
 
 
 @implementation ABCollectionViewModel {
@@ -52,6 +54,12 @@
     ABCellInfoDataObject *cellInfoDataObject = [self cellInfoDataObjectAtIndexPath:indexPath];
     NSAssert(cellInfoDataObject, @"object is nil");
     return cellInfoDataObject.cellIdentifier;
+}
+
+
+- (RACSubject*)dataSubjectForObjectAtIndexPath:(NSIndexPath *) indexPath{
+    ABCellInfoDataObject *dataObject = [self cellInfoDataObjectAtIndexPath:indexPath];
+    return dataObject.dataChangeSubject;
 }
 
 - (NSString *)cellIdentifierForSupplementaryElementOfKind:(NSString *)kind atIndexPath:(NSIndexPath *)indexPath {
