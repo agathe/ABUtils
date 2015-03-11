@@ -3,7 +3,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <ReactiveCocoa/ReactiveCocoa.h>
+@class RACSubject;
 
 /**
 * Convenient class to hold a cell object information
